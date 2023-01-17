@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+
+}
+.top-container{
+  background-image: url("https://i.pcmag.com/imagery/roundups/02HDufdqeRUDu3tl0NnY2qZ-2..v1649351854.jpg");
+  height: 100vh;
+  display: flex;
+  background-size: cover;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.top-container h1{
+  color: white;
+  font-size: 50px;
+
+}
+.text{
+  margin: 50px 5%;
+  font-family: sans-serif;
+}
+.navbar{
+  display: flex;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 1s;
+}
+
+.navbar ul{
+  display: flex;
+  list-style-type: none;
+
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  margin: 0 20px;
+  color: black;
+  font-size: 20px;
+
+}
+
+.navbar ul li a:hover{
+  color: blue;
+}
+
+.navbar.active{
+  background-color: blueviolet ;
+}
+
+.navbar.active ul li a{
+  color: white;
+}
